@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 
 # Токен бота
-bot = telebot.TeleBot("367523708:AAGKYgBk0mawIYDSIyZyTMxBxaq9Jfkp4h0")
+bot = telebot.TeleBot("534534")
 
 keyboard1 = types.InlineKeyboardMarkup(row_width=3)
 callback_zadanie1 = types.InlineKeyboardButton(text="Задание 1", callback_data='Задание 1')
