@@ -24,7 +24,6 @@ def start(m):
 @bot.message_handler(content_types=['text'])
 def text(m):
     if m.text == "📦 Задания":
-
         bot.send_message(m.from_user.id, 'Пожалуйста, выберите задание.', reply_markup=keyboard1)
 
 @bot.callback_query_handler(func=lambda c: True)
