@@ -37,15 +37,15 @@ def text(m):
 def inline(c):
     if c.data == 'Задание 1':
         bot.edit_message_text(chat_id=c.message.chat.id, message_id=c.message.message_id,
-                              text='Оставьте отзыв на сайте Яндекс.Карты.', parse_mode='Markdown',
+                              text='Заказ на Проспект Мира.', parse_mode='Markdown',
                               reply_markup=keyboard1)
     elif c.data == 'Задание 2':
         bot.edit_message_text(chat_id=c.message.chat.id, message_id=c.message.message_id,
-                              text='Посмотрите видео на Youtube.', parse_mode='Markdown',
+                              text='Заказ на Дмитровской.', parse_mode='Markdown',
                               reply_markup=keyboard1)
     elif c.data == 'Задание 3':
         bot.edit_message_text(chat_id=c.message.chat.id, message_id=c.message.message_id,
-                              text='Скачайте приложение в AppStore.', parse_mode='Markdown',
+                              text='Заказ на Полянка.', parse_mode='Markdown',
                               reply_markup=keyboard1)
 
 # Проверка бота на запросы
